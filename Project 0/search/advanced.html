@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="advanced.css">
+    </head>
+    <body>
+        <img class="google_pic_adv" src="google.png" width="100px">
+        <div class="link">
+            <a class="link_itself" href="index.html" class="link">Google Search</a>  
+        </div>
+        <div class="container">
+            <div class="page_title">Advanced Search</div>
+            <hr color="#e3e3e3" size=1>
+            <form action="https://google.com/search">
+                <table class="advanced_table">
+                    <tbody>
+                        <tr>
+                            <td style="width:250px">
+                                <div class=th_left>
+                                    Find pages with...
+                                </div>
+                            </td>
+                            <td style="width:600px"></td>
+                            <td style="width:250px">
+                                <div class=th_right>
+                                    <strong>To do this in the search box.</strong>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>all these words:</td>
+                            <td><input class="middle_box" name="as_q" type="text" class="searchbar-sm"></td>
+                            <td>Type the important words: <b>tri-colour rat terrier</b></td>
+                        </tr>
+                        <tr>
+                            <td>this exact word or phrase:</td>
+                            <td><input class="middle_box" name="as_epq" type="text" class="searchbar-sm"></td>
+                            <td>Put exact words in quotes: "<b>rat terrier</b>"</td>
+                        </tr>
+                        <tr>
+                            <td>any of these words:</td>
+                            <td><input class="middle_box" name="as_oq" type="text" class="searchbar-sm"></td>
+                            <td>Type OR between all the words you want: <b>miniature</b> OR <b>standard</b></td>
+                        </tr>
+                        <tr>
+                            <td>none of these words:</td>
+                            <td><input class="middle_box" name="as_eq" type="text" class="searchbar-sm"></td>
+                            <td>Put a minus sign just before words that you don't want: -<b>rodent</b>, -"<b>Jack Russell</b>"</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <div style="padding-left: 300px;">
+                    <input class="advanced_search_btn" type="submit" value="Advanced Search">
+                </div>
+            </form>
+
+        </div>
+        
+    </body>
+</html>
